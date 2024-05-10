@@ -1,0 +1,111 @@
+body{
+    background-color: #f0f2f5;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+main{
+    width: 75vw;
+    height: 60vh;
+    display: block;
+    margin: auto;
+}
+.form1{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 40%;
+    align-items: flex-end;
+}
+ .container a{
+    color: white;
+    align-content: flex-end;
+    font-size: 10px;
+}
+
+.container a:hover{
+    color: aqua;
+}
+.container{
+    background-color: #3C5A9A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 20px;
+}
+button{
+    background-color: #536A95;
+    color: white;
+    font-size: 16px;
+    transition-duration: 0.5s;
+    border: 0.5px;
+}
+button:hover{
+    background-color: burlywood;
+}
+img{
+    width: 10%;
+}
+.form2{
+    display: flex;
+    flex-direction: column;
+}
+.label-input {
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px;
+    max-height: 25px;
+}
+
+label .form{
+    flex-basis: 60%;
+}
+
+ .card .first{
+    display: flex;
+    flex-direction: column;
+}
+ .card .second{
+    display: flex;
+    flex-direction: column;
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+    background-color:#EAEDF6;
+}
+.cont1{
+    margin: 0;
+    padding: 20px;
+    flex-basis: 50%;
+}
+.cont1 img{
+    width: 100%;
+}
+.cont2 input{
+    width: 50%;
+}
+section a:hover{
+    color: blueviolet;
+}
+section a{
+    font-size: 12px;
+}
+section button{
+    font-size: 12px;
+    background-color: aliceblue;
+    display: block;
+    margin: auto;
+}
+@media screen and (min-width:750px) and (max-width:1000px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-container{
+        display: flex;
+        flex-direction: column;
+    }   
+}
